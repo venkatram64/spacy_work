@@ -1,0 +1,72 @@
+{
+	"rasa_nlu_data":{
+		"regex_features":[
+			{
+				"name": "zipcode",
+				"pattern": "[0-9]{5}"
+			},
+			{
+				"name": "greet",
+				"pattern": "hey[^\\s]*"
+			}
+		],
+		"entity_synonyms":[
+			{
+				"value": "chinese",
+				"synonyms": ["veggie", "vegg"]
+			},
+			{
+				"value": "vegetarian",
+				"synonyms": ["veggie", "vegg"]
+			}
+		],
+		"common_examples":[
+			{
+				"text": "hey",
+				"intent": "greet",
+				"entities":[]
+			},
+			{
+				"text": "hey there",
+				"intent": "greet",
+				"entities":[]
+			},
+			{
+				"text": "Indian",
+				"intent": "restaurant_search",
+				"entities": [
+				  {
+					"start": 0,
+					"end": 6,
+					"value": "Indian",
+					"entity": "Cuisine"
+				  }
+				]
+			},
+			{
+				"text": "Chinese",
+				"intent": "restaurant_search",
+				"entities": [
+				  {
+					"start": 0,
+					"end": 7,
+					"value": "Chinese",
+					"entity": "Cuisine"
+				  }
+				]
+			},
+			{
+				"text": "Italian",
+				"intent": "restaurant_search",
+				"entities": [
+				  {
+					"start": 0,
+					"end": 7,
+					"value": "Italian",
+					"entity": "Cuisine"
+				  }
+				]
+			}
+		]
+	}
+}
