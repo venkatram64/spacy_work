@@ -23,3 +23,8 @@ pip install twython
 
 pip install textacy
 (My_Flask) D:\python3_spark\spacy_work>D:\python3_spark\spacy_work\My_Flask\Scripts\python -m textacy download
+
+pip install textacy[lang]
+pip install cld2-ffi
+
+pip install gensim
