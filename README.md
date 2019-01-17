@@ -28,3 +28,16 @@ pip install textacy[lang]
 pip install cld2-ffi
 
 pip install gensim
+
+
+Forecasting is a process of predicting or estimating the future based on past and present data.
+
+eg: How many passengers can we expect in a given flight.
+
+    How many customers call can we expect next year?
+    
+Prediction modeling used to perform prediction more granular like who are the customers who are likely to buy a product in next month? and then act accordingly.
+
+
+Machine Learning, it is a method of teaching machines to learn things and improve predictions/ behavior based on their own.
+    
